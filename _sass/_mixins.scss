@@ -1,0 +1,25 @@
+
+@mixin border-radius(){
+      -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin nav-position($position) {
+	width: 14rem;
+  position: fixed;
+  background-color: $background-color;
+  top: 0;
+  bottom: 0;
+  #{$position}: -14rem;
+  color: $background-color;
+  opacity: 0.95;
+  -webkit-transition: all 0.3s ease-in;
+     -moz-transition: all 0.3s ease-in;
+      -ms-transition: all 0.3s ease-in;
+          transition: all 0.3s ease-in;
+  z-index: 1;
+  padding: 72px 0;
+  text-align: center;
+}
