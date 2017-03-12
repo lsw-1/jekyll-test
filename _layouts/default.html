@@ -6,13 +6,13 @@
 <body id="default-content">
     {% include navbar.html %}
     <div class="banner">
-        <img src="..\assests\fullscreen.jpg" alt="">
+        <img src="{{ site.baseurl }}/assests/fullscreen.jpg" alt="">
         <div class="line"></div>
     </div>
     {{content}} 
     {% include footer.html %}
-    <script src="..\js\vendor\jquery-3.1.1.slim.js" ></script>
-    <script src="..\js\default.js" ></script>
+    <script src="{{ site.baseurl }}\js\vendor\jquery-3.1.1.slim.js" ></script>
+    <script src="{{ site.baseurl }}\js\default.js" ></script>
 </body>
 
 </html>
