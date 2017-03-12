@@ -31,15 +31,22 @@
         margin-right: 4%;
         li {
             a {
+                color: inherit;
                 display: block;
                 text-align: center;
                 padding: 14px 16px;
                 text-decoration: none;
                 margin: 0
             }
+            a:hover {
+                font-weight: 800
+            }
         }
         li {
             font-size: 32px;
+        }
+        li:last-child {
+            border-bottom: 10px solid slateblue;
         }
     }
 }

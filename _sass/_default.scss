@@ -1,21 +1,5 @@
 #default-content {
     font-family: 'Roboto', sans-serif;
-    .banner {
-        img {
-            width: 100%;
-            height: 990px;
-            border-bottom: 4px solid gray;
-        }
-    }
-    main {
-        margin: 2% 10%;
-        section {
-            display: flex;
-            flex-direction: column;
-            width: 70%;
-            padding-bottom: 10px;
-            border-bottom: 2px solid black;
-        }
-    }
+
 }
 

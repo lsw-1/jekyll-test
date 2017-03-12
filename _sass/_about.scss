@@ -1,0 +1,22 @@
+#about {
+    padding: 35% 10%;
+    padding-top: 250px;
+    display: flex;
+    margin: auto;
+    font-size: 24px;
+    background: linear-gradient(to left,#fc00ff, #00dbde);
+    div {
+        width: 80%;
+        margin-left: auto;
+        h4 {
+            margin-top: 0;
+        }
+        p {}
+    }
+    img {
+        margin-top: 0;
+        margin-right: 10%;
+        height: 250px;
+        border-radius: 100%;
+    }
+}
